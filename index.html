@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/js.js"></script> 
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">ShopWear</a>
+        <button onclick="myFunction()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-bars" id="menu-icon"></span>
+            <span class="fas fa-times" id="menu-icon-cerrar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link nav-item text-uppercase" href="categoria.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">New Collection </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">colección of men</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">new collection -20%</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">ver todo</a>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <img src="img/img03.jpg" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="text-darck">Nueva colección</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">colección of women</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">new collection -20%</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">ver todo</a>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <img src="img/img04.jpg" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="text-darck">Nueva colección</p>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link nav-item nav-link text-uppercase text-danger" href="categoria.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Rebajas</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">rebajas of men</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">hasta -60%</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">ver todo</a>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <img src="img/img06.jpg" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="text-danger">Rebajas -60%</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">colección of women</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">hasta -60%</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">ver todo</a>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <img src="img/img05.jpg" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="text-danger">Rebajas -60%</p>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link nav-item nav-link text-uppercase" href="categoria.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">mujer</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">colección</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">abrigos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">sudaderas</a>
+                                        </li>                                    
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">camisas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">pantalones</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">jeans</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">zapatos</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">accesorios</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">mochilas y bolsos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">bufandas</a>
+                                        </li>                                    
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">gorros</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">cinturones</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">zapatos</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">botines</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">zapatillas</a>
+                                        </li>                                    
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">deportiva</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <img src="img/img01.jpg" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="text-darck">Nueva colección</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link nav-item nav-link text-uppercase" href="categoria.html" id="navbarDropdownHombre" role="button" aria-haspopup="true" aria-expanded="false">hombre</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownHombre">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">colección</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">abrigos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">sudaderas</a>
+                                        </li>                                    
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">camisas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">pantalones</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">jeans</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">zapatos</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">accesorios</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">mochilas y bolsos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">bufandas</a>
+                                        </li>                                    
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">gorros</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">cinturones</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-darck">zapatos</span>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">botines</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">zapatillas</a>
+                                        </li>                                    
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">deportiva</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="">
+                                        <img src="img/img02.jpg" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="text-darck">Nueva colección</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-darck my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                <a class="btn text-uppercase iconoUser" href="login.html"><i class="fas fa-user"></i></a>
+                <a class="btn text-uppercase iconoBuy" href="index.html" data-toggle="modal" data-target="#myModal"><i class="fas fa-shopping-cart"></i></a>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100" src="img/carousel01.jpg" alt="First slide">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption ">
+                        <h3 class="h3-responsive carouser-text-1">-20% EN NUEVA COLECCIÓN</h3>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div class="view">
+                        <img class="d-block w-100" src="img/carousel02.jpg" alt="Second slide">
+                        <div class="mask rgba-black-strong"></div>
+                    </div>
+                    <div class="carousel-caption" >
+                        <h3 class="h3-responsive text-danger carouser-text-2">SEGUNDAS REBAJAS<br> HASTA -70%</h3>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="container">
+            <h3 class="h3 text-uppercase">Lo mejor</h3>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="product-grid2 card">
+                        <div class="product-image2">
+                            <a href="producto.html">
+                                <img class="pic-1" src="img/img-card01.jpg">
+                                <img class="pic-2" src="img/img-card02.jpg">
+                            </a>
+                            <ul class="social">
+                                <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <span class="product-new-label-sale">Sale</span>
+                            <span class="product-discount-label">50%</span>
+                            <a class="add-to-cart" href="">Add to cart</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title text-uppercase"><a href="#">JERSEY JACQUARD FRANJA</a></h3>
+                            <span class="price text-danger">19,99 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="product-grid2 card">
+                        <div class="product-image2">
+                            <a href="producto.html">
+                                <img class="pic-1" src="img/img-card03.jpg">
+                                <img class="pic-2" src="img/img-card04.jpg">
+                            </a>
+                            <ul class="social">
+                                <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <span class="product-new-label-sale">Sale</span>
+                            <span class="product-discount-label">50%</span>
+                            <a class="add-to-cart" href="">Add to cart</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title text-uppercase"><a href="#">Jersey pelo</a></h3>
+                            <span class="price text-danger">19,99 €</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h3 class="h3 text-uppercase">Nueva colección</h3>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid2 card">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="img/newColection01.jpg">
+                                <img class="pic-2" src="img/newColection02.jpg">
+                            </a>
+                            <ul class="social">
+                                <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <a class="add-to-cart" href="">Add to cart</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Abrigo doble faz boreguito</a></h3>
+                            <span class="price">29,99 €</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid2 card">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="img/newColection03.jpg">
+                                <img class="pic-2" src="img/newColection04.jpg">
+                            </a>
+                            <ul class="social">
+                                <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <a class="add-to-cart" href="">Add to cart</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Jersey pelo cenefas jacquard</a></h3>
+                            <span class="price">24,99 €</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid2 card">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="img/newColection05.jpg">
+                                <img class="pic-2" src="img/newColection06.jpg">
+                            </a>
+                            <ul class="social">
+                                <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <a class="add-to-cart" href="">Add to cart</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Jersey trenzas fantasía</a></h3>
+                            <span class="price">19,99 €</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid2 card">
+                        <div class="product-image2">
+                            <a href="#">
+                                <img class="pic-1" src="img/newColection07.jpg">
+                                <img class="pic-2" src="img/newColection08.jpg">
+                            </a>
+                            <ul class="social">
+                                <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <a class="add-to-cart" href="">Add to cart</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#"> Jersey lambswool </a></h3>
+                            <span class="price">15,99 €</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="section footer-classic context-dark mt-5 pt-3">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+                <h5 class="text-uppercase">help</h5>
+                <ul class="nav-list footer-ul">
+                    <li><a href="#">Atención al Cliente</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Envío</a></li>
+                    <li><a href="#">Cambios, devoluciones y desistimiento</a></li>
+                    <li><a href="#">Promociones vigentes</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Contacts</h5>
+              <dl class="contact-list">
+                <dt>Address:</dt>
+                <dd>798 South Park Avenue, Jaipur, Raj</dd>
+            </dl>
+            <dl class="contact-list">
+                <dt>email:</dt>
+                <dd><a href="mailto:#">admin@gmail.com</a></dd>
+            </dl>
+            <dl class="contact-list">
+                <dt>phones:</dt>
+                <dd><a href="tel:#">+91 7568543012</a> <span>or</span> <a href="tel:#">+91 9571195353</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="col-md-4 col-xl-3">
+            <h5 class="text-uppercase">info</h5>
+            <ul class="nav-list footer-ul">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row no-gutters">
+  <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+  <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+  <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+  <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+</div>
+</footer>
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Shopping Cart</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="text-center border-0">Produto</th>
+                            <th scope="col" class="text-center border-0">Nombre</th>
+                            <th scope="col" class="text-center border-0">Cantidad</th>
+                            <th scope="col" class="text-center border-0">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="align-middle text-center border-0"><img src="img/newColection28.jpg" class="img-thumbnail"></th>
+                            <td class="align-middle text-center border-0">Jersey</td>
+                            <td class="align-middle text-center border-0"><a class="btn btn-outline-dark" href="#"><i class="fas fa-plus"></i></a><span class="mx-2">1</span><a class="btn btn-outline-danger" href="#"><i class="fas fa-minus"></i></a></td>
+                            <td class="align-middle text-center border-0">19,99€</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" onclick="carrito()" class="btn btn-outline-success">Pagar</button>
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
