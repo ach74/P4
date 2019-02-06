@@ -172,6 +172,7 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 
 
 /************ CSS para card ****************/
+.col-sm-12 > .product-card{max-width: 80%;}
 .product-card{font-family:'Open Sans',sans-serif;position:relative}
 .product-card .product-image2{overflow:hidden;position:relative}
 .product-card .product-image2 a{display:block}
